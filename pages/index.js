@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -11,6 +12,9 @@ export default function Home() {
       <h1>HOMEPAGE</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, fugit!</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, non!</p>
+      <Link href="/people">
+        <a>See people list</a>
+      </Link>
       <Footer />
     </div>
   )
