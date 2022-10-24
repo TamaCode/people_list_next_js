@@ -8,14 +8,12 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <h1>HOMEPAGE</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, fugit!</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, non!</p>
       <Link href="/people">
         <a>See people list</a>
       </Link>
-      <Footer />
     </div>
   )
 }
