@@ -35,3 +35,11 @@ footer {
   color: #777;
   border-top: 1.5px solid #ddd;
 }
+
+.not-found {
+  text-align: center;
+}
+
+.not-found a {
+  color: #4979ff;
+}
