@@ -1,8 +1,8 @@
 const Footer = () => {
     return ( 
-        <div>
+        <footer>
             <p>Copyright {new Date().getFullYear()} people list</p>
-        </div>
+        </footer>
      );
 }
  
