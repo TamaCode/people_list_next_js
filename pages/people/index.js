@@ -21,7 +21,7 @@ export const getStaticProps = async () => {
 const People = ({ people }) => {
     return (
         <div>
-            <h1>People</h1>
+            <h1>People List</h1>
             {people.map(person => (
                 <Link href={`/people/${person.id}`} key={person.id}>
                     <a className={styles.single}>
